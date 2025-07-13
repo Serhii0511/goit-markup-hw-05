@@ -605,7 +605,7 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-name:focus {
+.input[type="checkbox"]:focus + label .svg-pryvacy {
     border-color: #4D5AE5;
 }
 .svg-name {
