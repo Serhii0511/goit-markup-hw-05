@@ -665,7 +665,7 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
     border: none;
 }
 .checkbox input:checked + .label-privacy .span-box .svg-pryvacy {
-    fill: #f6fafd;
+    fill: #f4f4fd;
 }
 .a-privacy {
     color: #4d5ae5;
