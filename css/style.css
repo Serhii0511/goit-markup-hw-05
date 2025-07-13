@@ -567,8 +567,8 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
 .cross {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.cross:hover,
-.cross:focus {
+.button-modal:hover .cross,
+.button-modal:focus .cross{
     fill: #ffffff;
 }
 .p-contact {
@@ -659,10 +659,13 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
     justify-content: center;
     fill: transparent;
 }
-.input [type="checkbox"]:checked + .label span {
+.checkbox input:checked
++ .label-privacy .span-box {
     background-color: #404bbf;
     border: none;
-    fill: #F4F4FD;
+}
+.checkbox input:checked + .label-privacy .span-box .svg-pryvacy {
+    fill: #f6fafd;
 }
 .a-privacy {
     color: #4d5ae5;
